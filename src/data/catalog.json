@@ -1,0 +1,303 @@
+{
+    "soleProfiles": [
+        {
+            "id": "flat",
+            "label": "Plate",
+            "description": "Semelle fine et stable, ligne \u00e9pur\u00e9e."
+        },
+        {
+            "id": "contoured",
+            "label": "Anatomique",
+            "description": "Vo\u00fbte plantaire l\u00e9g\u00e8rement soutenue."
+        },
+        {
+            "id": "rocker",
+            "label": "Bascule",
+            "description": "Avant relev\u00e9 pour faciliter le d\u00e9roul\u00e9 du pas."
+        },
+        {
+            "id": "platform",
+            "label": "Plateforme",
+            "description": "Semelle \u00e9paisse, amorti prononc\u00e9."
+        }
+    ],
+    "toeShapes": [
+        {
+            "id": "round",
+            "label": "Ronde"
+        },
+        {
+            "id": "square",
+            "label": "Carr\u00e9e"
+        },
+        {
+            "id": "almond",
+            "label": "Amande"
+        }
+    ],
+    "outlines": [
+        {
+            "id": "slim",
+            "label": "Fine"
+        },
+        {
+            "id": "regular",
+            "label": "Standard"
+        },
+        {
+            "id": "wide",
+            "label": "Large"
+        }
+    ],
+    "heelProfiles": [
+        {
+            "id": "flat",
+            "label": "Talon plat"
+        },
+        {
+            "id": "low",
+            "label": "Talon bas"
+        },
+        {
+            "id": "wedge",
+            "label": "Compens\u00e9"
+        }
+    ],
+    "strapTypes": [
+        {
+            "id": "single",
+            "label": "Bride unique"
+        },
+        {
+            "id": "double",
+            "label": "Double bride"
+        },
+        {
+            "id": "cross",
+            "label": "Brides crois\u00e9es"
+        },
+        {
+            "id": "backstrap",
+            "label": "Bride arri\u00e8re"
+        }
+    ],
+    "outerSoles": [
+        {
+            "id": "eva",
+            "label": "EVA l\u00e9ger"
+        },
+        {
+            "id": "rubber",
+            "label": "Caoutchouc"
+        },
+        {
+            "id": "cork",
+            "label": "Li\u00e8ge composite"
+        }
+    ],
+    "insoles": [
+        {
+            "id": "memory",
+            "label": "Mousse \u00e0 m\u00e9moire"
+        },
+        {
+            "id": "cork",
+            "label": "Li\u00e8ge naturel"
+        },
+        {
+            "id": "latex",
+            "label": "Latex souple"
+        }
+    ],
+    "strapMaterials": [
+        {
+            "id": "leather",
+            "label": "Cuir v\u00e9g\u00e9tal"
+        },
+        {
+            "id": "suede",
+            "label": "Nubuck"
+        },
+        {
+            "id": "canvas",
+            "label": "Toile technique"
+        },
+        {
+            "id": "recycled",
+            "label": "Textile recycl\u00e9"
+        }
+    ],
+    "colors": [
+        {
+            "id": "ivory",
+            "label": "Ivoire",
+            "hex": "#F7F5F0"
+        },
+        {
+            "id": "sand",
+            "label": "Beige sable",
+            "hex": "#D8C7AF"
+        },
+        {
+            "id": "taupe",
+            "label": "Taupe",
+            "hex": "#8B8176"
+        },
+        {
+            "id": "anthracite",
+            "label": "Anthracite",
+            "hex": "#282828"
+        },
+        {
+            "id": "clay",
+            "label": "Terre cuite",
+            "hex": "#B8775A"
+        },
+        {
+            "id": "sage",
+            "label": "Sauge",
+            "hex": "#9AA58C"
+        }
+    ],
+    "textures": [
+        {
+            "id": "smooth",
+            "label": "Lisse"
+        },
+        {
+            "id": "grain",
+            "label": "Grain\u00e9"
+        },
+        {
+            "id": "woven",
+            "label": "Tiss\u00e9"
+        }
+    ],
+    "finishes": [
+        {
+            "id": "matte",
+            "label": "Mat"
+        },
+        {
+            "id": "satin",
+            "label": "Satin\u00e9"
+        },
+        {
+            "id": "gloss",
+            "label": "Brillant"
+        }
+    ],
+    "patterns": [
+        {
+            "id": "none",
+            "label": "Aucun"
+        },
+        {
+            "id": "lines",
+            "label": "Lignes fines"
+        },
+        {
+            "id": "dots",
+            "label": "Points"
+        },
+        {
+            "id": "waves",
+            "label": "Ondulations"
+        }
+    ],
+    "styles": [
+        {
+            "id": "minimalist",
+            "label": "Minimaliste",
+            "tagline": "Lignes pures, tons neutres.",
+            "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=900&q=80",
+            "alt": "Sandale minimaliste beige pos\u00e9e sur un fond clair lumineux",
+            "preset": {
+                "soleProfile": "flat",
+                "toeShape": "round",
+                "outline": "slim",
+                "heelProfile": "flat",
+                "strapType": "single",
+                "outerSole": "eva",
+                "insole": "cork",
+                "strapMaterial": "leather",
+                "primaryColor": "sand",
+                "secondaryColor": "ivory",
+                "texture": "smooth",
+                "finish": "matte",
+                "pattern": "none"
+            }
+        },
+        {
+            "id": "chic",
+            "label": "Chic",
+            "tagline": "\u00c9l\u00e9gance discr\u00e8te, d\u00e9tails soign\u00e9s.",
+            "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80",
+            "alt": "Sandale \u00e9l\u00e9gante en cuir sombre sur un fond clair tr\u00e8s lumineux",
+            "preset": {
+                "soleProfile": "contoured",
+                "toeShape": "almond",
+                "outline": "regular",
+                "heelProfile": "low",
+                "strapType": "cross",
+                "outerSole": "rubber",
+                "insole": "memory",
+                "strapMaterial": "suede",
+                "primaryColor": "anthracite",
+                "secondaryColor": "sand",
+                "texture": "grain",
+                "finish": "satin",
+                "pattern": "lines"
+            }
+        },
+        {
+            "id": "sporty",
+            "label": "Sportif",
+            "tagline": "Dynamique, amorti, maintien.",
+            "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=900&q=80",
+            "alt": "Chaussure sportive claire sur fond lumineux, vue de profil",
+            "preset": {
+                "soleProfile": "rocker",
+                "toeShape": "round",
+                "outline": "wide",
+                "heelProfile": "wedge",
+                "strapType": "double",
+                "outerSole": "rubber",
+                "insole": "latex",
+                "strapMaterial": "recycled",
+                "primaryColor": "sage",
+                "secondaryColor": "anthracite",
+                "texture": "woven",
+                "finish": "matte",
+                "pattern": "dots"
+            }
+        },
+        {
+            "id": "contemporary",
+            "label": "Contemporain",
+            "tagline": "Volumes affirm\u00e9s, mati\u00e8res mixtes.",
+            "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=900&q=80",
+            "alt": "Chaussure contemporaine aux volumes marqu\u00e9s sur fond clair lumineux",
+            "preset": {
+                "soleProfile": "platform",
+                "toeShape": "square",
+                "outline": "regular",
+                "heelProfile": "wedge",
+                "strapType": "backstrap",
+                "outerSole": "cork",
+                "insole": "memory",
+                "strapMaterial": "canvas",
+                "primaryColor": "clay",
+                "secondaryColor": "taupe",
+                "texture": "grain",
+                "finish": "satin",
+                "pattern": "waves"
+            }
+        }
+    ],
+    "fallbackImages": {
+        "main": "https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=1200&q=80",
+        "front": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1200&q=80",
+        "side": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=1200&q=80"
+    }
+}
